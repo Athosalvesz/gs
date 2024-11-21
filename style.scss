@@ -1,14 +1,12 @@
-// Importando fontes do Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-// Variáveis de SCSS
-$cor-primaria: #2e7d32; // Verde escuro
-$cor-secundaria: #66bb6a; // Verde claro
-$cor-fundo-clara: #f1f8e9; // Verde muito claro
-$cor-texto-escuro: #1b5e20; // Verde mais escuro
+$cor-primaria: #2e7d32; 
+$cor-secundaria: #66bb6a; 
+$cor-fundo-clara: #f1f8e9; 
+$cor-texto-escuro: #1b5e20; 
 $fonte-principal: 'Roboto', sans-serif;
 
-// Importando arquivos SCSS (certifique-se de que eles estão no local correto)
+
 @import "variables";
 @import "mixins";
 
@@ -24,7 +22,7 @@ body {
   color: white;
   padding: 7rem 0;
   text-align: center;
-  background-image: url('imagem_hero.jpg'); // Certifique-se de ter a imagem
+  background-image: url('imagem_hero.jpg'); 
   background-size: cover;
   background-position: center;
   position: relative;
@@ -173,7 +171,6 @@ footer {
   }
 }
 
-// Mixins
 @mixin titulo-secao($cor) {
   text-align: center;
   font-weight: 700;
